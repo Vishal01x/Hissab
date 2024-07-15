@@ -1,0 +1,24 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.MyApplication" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+
+    </style>
+
+    <style name="Theme.MyApplication" parent="Base.Theme.MyApplication" />
+
+    <!-- Custom EditText Style -->
+    <style name="CustomEditText" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="boxStrokeColor">@color/primaryColor</item>
+        <item name="hintTextAppearance">@style/CustomHintText</item>
+        <item name="boxStrokeErrorColor">@color/errorColor</item>
+        <item name="endIconTint">@color/primaryColor</item>
+    </style>
+
+    <!-- Custom Hint Text Style -->
+    <style name="CustomHintText" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">@color/primaryColor</item>
+    </style>
+
+</resources>
